@@ -1,8 +1,6 @@
 import { render, screen, waitFor } from '@testing-library/react';
-import { vi } from 'vitest'; // ✅ import vi
+import { vi } from 'vitest'; 
 import App from './App';
-
-// ✅ Mock fetch using Vitest
 beforeEach(() => {
   global.fetch = vi.fn(() =>
     Promise.resolve({

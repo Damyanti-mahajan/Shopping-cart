@@ -1,22 +1,22 @@
-# 🛒 React Shopping Cart App
+# React Shopping Cart App
 
 A simple and responsive shopping cart application built using **React**, **Tailwind CSS**, and **Vite**, with **unit testing** powered by **Vitest** and **React Testing Library**.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Fetches products from ('https://fakestoreapi.com/products')
 - Displays products in card layout
+- View detailed product information (`ProductDetailList`)
 - Add to Cart functionality
 - Expandable cart showing added items
 - Remove items from cart
 - Responsive UI with Tailwind CSS
 - Unit tested components using Vitest
-
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Frontend:** React, Tailwind CSS
 - **Tooling:** Vite
@@ -40,10 +40,16 @@ product-cart-app/
 ├── public/                   
 ├── src/
 │   ├── Components/           
-│   │   ├── ProductList.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Cart.test.jsx
 │   │   ├── ProductCard.jsx
-│   │   └── Cart.jsx
+│   │   ├── ProductCard.test.jsx
+│   │   ├── ProductList.jsx
+│   │   ├── ProductList.test.jsx
+│   │   ├── ProductDetailList.jsx
+│   │   └── ProductDetailList.test.jsx
 │   ├── App.jsx              
+│   ├── App.test.jsx
 │   ├── App.css               
 │   └── main.jsx             
 ├── index.html
@@ -53,3 +59,7 @@ product-cart-app/
 
 
 Author---Made  by Damyanti Mahajan
+
+
+
+
